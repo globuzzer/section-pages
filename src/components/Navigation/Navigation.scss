@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -webkit-calc(100% - 86px);
+  position: fixed;
+  border-bottom: 1px solid white;
+  z-index: 10;
+  left: 43px;
+  padding: 20px 0;
+  transition: 0.3s ease;
+  .options {
+    display: flex;
+    align-items: center;
+
+    .option {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .login-btn {
+      margin-right: 15px;
+    }
+  }
+}
